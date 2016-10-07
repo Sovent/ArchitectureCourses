@@ -1,1 +1,6 @@
 packages/
+Users/obj/
+Common/obj/
+Aggregates/obj/
+Patterns/obj/
+Patterns/bin/

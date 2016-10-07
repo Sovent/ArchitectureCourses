@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Dynamic;
 using System.Net;
 using System.Net.Http;
-using System.Runtime.InteropServices;
 using System.Security.Policy;
 using System.Security.Principal;
 using System.Threading;
 
 namespace Patterns
 {
-    public class AuthenticationHandler
+	public class AuthenticationHandler
     {
         public void Handle(HttpRequestMessage request)
         {
